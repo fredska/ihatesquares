@@ -15,14 +15,16 @@
             margin: 0px;
         }
     </style>
-    <script type="text/javascript">
+</head>
+<body>
+        <script type="text/javascript">
         (function() {
                 var TopDownGame = TopDownGame || {};
                 //Create a new game that fills the screen
-                TopDownGame.game = new Phaser.Game(window.innerWidth * window.devicePixelRatio, window.innerHeight * window.devicePixelRatio, Phaser.AUTO);
+                TopDownGame.game = new Phaser.Game(window.innerWidth * window.devicePixelRatio, window.innerHeight * window.devicePixelRatio, Phaser.AUTO, '');
 
                 //Add all states
-                TopDownGame.game.state.add("Boot", TopDownGame.Boot);
+                TopDownGame.game.state.add('Boot', TopDownGame.Boot);
                 TopDownGame.game.state.add("Preload", TopDownGame.Preload);
                 // game.state.add("GameTitle", GameTitle);
                 TopDownGame.game.state.add("Main", TopDownGame.Main);
@@ -33,7 +35,5 @@
 
         })();
     </script>
-</head>
-<body>
 </body>
 </html>

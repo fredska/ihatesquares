@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="20" tilewidth="16" tileheight="16" nextobjectid="10">
  <tileset firstgid="1" name="simples_pimples" tilewidth="16" tileheight="16" tilecount="4000">
-  <image source="../../../../Downloads/simples_pimples.png" width="800" height="1280"/>
+  <image source="../images/simples_pimples.png" width="800" height="1280"/>
  </tileset>
- <layer name="BGlayer" width="10" height="20">
+ <layer name="backgroundLayer" width="10" height="20">
   <data encoding="base64" compression="zlib">
-   eJzL4mBgyCISIwNi1eFTDwN/8KhFlkNXhyyOrs6OHYHxqSPWvIFShw8TArRSh44XsSMwLe2lhjo2DsLhiowBDjpGiQ==
+   eJzL4mBgyCISIwNi1eFTDwN/8KhFlkNXhyw+XNXhw4QArdQRcsdAu49YdcRgAIrMQ7E=
   </data>
  </layer>
- <layer name="blockLayer" width="10" height="20">
+ <layer name="blockedLayer" width="10" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AU4AIAAyAAAQ==
   </data>
  </layer>
- <objectgroup name="objLayer">
+ <objectgroup name="objectsLayer">
   <object id="2" type="playerStart" gid="77" x="26" y="294" width="16" height="16"/>
   <object id="4" type="door" gid="551" x="95" y="145" width="16" height="16">
    <properties>

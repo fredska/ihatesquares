@@ -2,10 +2,10 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzL4mBgyCISIwNi1eFTDwN\/8KhFlkNXhyyOrs6OHYHxqSPWvIFShw8TArRSh44XsSMwLe2lhjo2DsLhiowBDjpGiQ==",
+         "data":"eJzL4mBgyCISIwNi1eFTDwN\/8KhFlkNXhyw+XNXhw4QArdQRcsdAu49YdcRgAIrMQ7E=",
          "encoding":"base64",
          "height":20,
-         "name":"BGlayer",
+         "name":"backgroundLayer",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -18,7 +18,7 @@
          "data":"eJxjYBgFo2AU4AIAAyAAAQ==",
          "encoding":"base64",
          "height":20,
-         "name":"blockLayer",
+         "name":"blockedLayer",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -28,8 +28,8 @@
         }, 
         {
          "draworder":"topdown",
-         "height":20,
-         "name":"objLayer",
+         "height":0,
+         "name":"objectsLayer",
          "objects":[
                 {
                  "gid":77,
@@ -130,7 +130,7 @@
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":10,
+         "width":0,
          "x":0,
          "y":0
         }],
@@ -145,7 +145,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/..\/..\/Downloads\/simples_pimples.png",
+         "image":"..\/images\/simples_pimples.png",
          "imageheight":1280,
          "imagewidth":800,
          "margin":0,
